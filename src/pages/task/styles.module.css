@@ -52,3 +52,8 @@
   font-size: 14px;
   cursor: pointer;
 }
+
+.button:disabled {
+  background-color: rgba(49, 131, 255, 0.65);
+  cursor: not-allowed;
+}
